@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="topBar">
+        <img src="img/icon.png" alt="">
+        <div class="board">
+            <h1>TO</h1>
+            <h1>DO</h1>
+            <h1>List</h1>
+        </div>
+        
+    </div>
+        <div id="inputs">
+            <input type="text" placeholder="What needs doing?" id="input"><button onclick="addToList()"id="submit">Add to list</button>
+            <!-- <form name="myform" action="" onsubmit="addToList()">
+                <input type="text" placeholder="What needs doing?" id="input">
+                <input type="submit" value="Submit" name="" required>
+            </form> -->
+        </div>
+        
+            <div id="items">
+                <div class="toDoItem">
+                    Random thing to do <span id="cross">&cross;</span>
+                </div>
+            </div>
+<script src="script.js"></script>
+</body>
+</html>
